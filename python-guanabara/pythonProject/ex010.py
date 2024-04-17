@@ -1,4 +1,5 @@
-real = float(input("Digite a quantia desejada em real : "))
+real = float(input("Quanto dinheiro você tem na carteira? R$"))
 dolar = real / 3.27
-
-print(f'{real}, essa quantia pode comprar {dolar:.2f} em Dólar.')
+euro = real / 5.59
+iene = real / 0.0342095
+print(f'Com R${real:.2f} você pode comprar US${dolar:.2f} dólar, €{euro:.2f} euros, ¥{iene:.2f} iene japonês.')
